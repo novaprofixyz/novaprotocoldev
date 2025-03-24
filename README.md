@@ -1,7 +1,7 @@
 # NOVA Protocol
 
 <div align="center">
-  <img src="assets/logo.png" alt="NOVA Protocol Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/novaprofixyz/NovaProtocol/master/assets/logo.svg" alt="NOVA Protocol Logo" width="200"/>
   <p>Advanced Market Data and Financial Intelligence Platform</p>
   <p>
     <a href="#overview">Overview</a> •
