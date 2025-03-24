@@ -225,8 +225,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📧 Email: support@novaprotocol.xyz
-- 💬 Discord: [Join our community](https://discord.gg/novaprotocol)
 - 📱 Twitter: [@NovaProtocol](https://twitter.com/NovaProtocol)
 - 🌐 Website: [novaprotocol.xyz](https://novaprotocol.xyz)
 
