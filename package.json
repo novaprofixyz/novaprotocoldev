@@ -1,0 +1,42 @@
+{
+  "name": "nova-protocol",
+  "version": "0.1.0",
+  "description": "NOVA Protocol - Decentralized financial ecosystem integrating AI and blockchain technology",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "dev": "nodemon scripts/start.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "keywords": [
+    "blockchain",
+    "ai",
+    "finance",
+    "defi",
+    "crypto"
+  ],
+  "author": "NOVA Protocol Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 

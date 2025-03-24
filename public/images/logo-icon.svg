@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <!-- Core Graphic - Abstract AI Node System -->
+  <g transform="translate(40, 40)">
+    <!-- Center Circle -->
+    <circle cx="0" cy="0" r="35" fill="url(#tech-gradient)"/>
+    <!-- Connection Nodes -->
+    <g>
+      <circle cx="0" cy="-28" r="4" fill="#00FFFF"/>
+      <circle cx="28" cy="0" r="4" fill="#5D00FF"/>
+      <circle cx="0" cy="28" r="4" fill="#00FFFF"/>
+      <circle cx="-28" cy="0" r="4" fill="#5D00FF"/>
+      <!-- Connection Lines -->
+      <line x1="0" y1="-22" x2="0" y2="-26" stroke="#00FFFF" stroke-width="1"/>
+      <line x1="22" y1="0" x2="26" y2="0" stroke="#5D00FF" stroke-width="1"/>
+      <line x1="0" y1="22" x2="0" y2="26" stroke="#00FFFF" stroke-width="1"/>
+      <line x1="-22" y1="0" x2="-26" y2="0" stroke="#5D00FF" stroke-width="1"/>
+    </g>
+    <!-- Center Graphic - Standard N Letter -->
+    <path d="M -15 17 L -15 -17 L 15 17 L 15 -17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <!-- Define Gradients -->
+  <defs>
+    <radialGradient id="tech-gradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#5DFFFF"/>
+      <stop offset="50%" stop-color="#5D00FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0E0B30" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+</svg> 

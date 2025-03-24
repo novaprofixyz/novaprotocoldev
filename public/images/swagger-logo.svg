@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+  <g>
+    <!-- NOVA Logo Symbol -->
+    <g transform="translate(30, 40)">
+      <!-- Center Circle -->
+      <circle cx="0" cy="0" r="24" fill="url(#tech-gradient)"/>
+      <!-- N Letter -->
+      <path d="M -12 12 L -12 -12 L 12 12 L 12 -12" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    </g>
+    
+    <!-- NOVA Text -->
+    <text x="80" y="44" font-family="'Orbitron', sans-serif" font-weight="700" font-size="34" fill="#FFFFFF">NOVA</text>
+    
+    <!-- Protocol Text -->
+    <text x="80" y="66" font-family="'Orbitron', sans-serif" font-weight="300" font-size="16" fill="#8A9FFF" letter-spacing="4">PROTOCOL</text>
+    
+    <!-- API Docs Text -->
+    <text x="280" y="44" font-family="'Orbitron', sans-serif" font-weight="400" font-size="22" fill="#00FFFF">API DOCS</text>
+  </g>
+  
+  <!-- Define Gradients -->
+  <defs>
+    <radialGradient id="tech-gradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#5DFFFF"/>
+      <stop offset="50%" stop-color="#5D00FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0E0B30" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+</svg> 

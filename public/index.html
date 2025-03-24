@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA Protocol - Advanced Crypto Market Analysis</title>
+    <meta name="description" content="NOVA Protocol provides advanced crypto market analytics, AI-powered insights, and portfolio management tools.">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="/images/nova-logo.svg" alt="NOVA Protocol Logo">
+                <span class="logo-text">NOVA Protocol</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#market-data">Market Data</a></li>
+                    <li><a href="#ai-insights">AI Insights</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="/api/docs" class="nav-api-link">API</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="/login" class="btn btn-outline">Login</a>
+                <a href="/signup" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Next-Generation Crypto Market Intelligence</h1>
+                    <p class="hero-subtext">
+                        Advanced analytics, AI-powered insights, and comprehensive portfolio management tools
+                        to navigate the crypto markets with confidence.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="/signup" class="btn btn-primary btn-large">Get Started</a>
+                        <a href="/demo" class="btn btn-outline btn-large">View Demo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="/images/hero-dashboard.png" alt="NOVA Protocol Dashboard">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Powerful Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="/images/icons/chart.svg" alt="Real-time Market Data">
+                        </div>
+                        <h3>Real-time Market Data</h3>
+                        <p>Comprehensive data from multiple exchanges, with advanced filtering and visualization tools.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="/images/icons/ai.svg" alt="AI-Powered Analysis">
+                        </div>
+                        <h3>AI-Powered Analysis</h3>
+                        <p>Advanced market predictions and insights using our proprietary AIDE (AI Decision Engine).</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="/images/icons/portfolio.svg" alt="Portfolio Management">
+                        </div>
+                        <h3>Portfolio Management</h3>
+                        <p>Track, analyze, and optimize your crypto holdings with advanced portfolio tools.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="/images/icons/alert.svg" alt="Custom Alerts">
+                        </div>
+                        <h3>Custom Alerts</h3>
+                        <p>Set personalized price, volume, and sentiment alerts for your watched assets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="market-data" class="market-data">
+            <div class="container">
+                <h2>Market Overview</h2>
+                <div class="market-stats">
+                    <div class="stat-card">
+                        <h4>Global Market Cap</h4>
+                        <div class="stat-value" id="global-mcap">$0.00</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>24h Volume</h4>
+                        <div class="stat-value" id="global-volume">$0.00</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>BTC Dominance</h4>
+                        <div class="stat-value" id="btc-dominance">0.00%</div>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Active Cryptocurrencies</h4>
+                        <div class="stat-value" id="active-cryptos">0</div>
+                    </div>
+                </div>
+                <div class="market-table-container">
+                    <table class="market-table" id="top-assets">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>24h %</th>
+                                <th>Market Cap</th>
+                                <th>Volume (24h)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="loading-row">
+                                <td colspan="6">Loading market data...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="view-more-container">
+                    <a href="/markets" class="btn btn-outline">View All Markets</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-insights" class="ai-insights">
+            <div class="container">
+                <h2>AI-Powered Market Insights</h2>
+                <div class="insights-content">
+                    <div class="insights-text">
+                        <p>NOVA Protocol's AIDE (AI Decision Engine) analyzes vast amounts of market data, news, social sentiment, and on-chain metrics to provide actionable insights.</p>
+                        <ul class="insights-list">
+                            <li>Market trend predictions with confidence scores</li>
+                            <li>Asset correlation analysis</li>
+                            <li>Sentiment analysis across social platforms</li>
+                            <li>Anomaly detection for early warning signals</li>
+                            <li>Personalized trading opportunities based on your portfolio</li>
+                        </ul>
+                        <a href="/ai-insights" class="btn btn-primary">Explore AI Insights</a>
+                    </div>
+                    <div class="insights-image">
+                        <img src="/images/ai-insights-screen.png" alt="AI Insights Dashboard">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2>Advanced Portfolio Management</h2>
+                <div class="portfolio-features">
+                    <div class="portfolio-image">
+                        <img src="/images/portfolio-screen.png" alt="Portfolio Management Dashboard">
+                    </div>
+                    <div class="portfolio-text">
+                        <p>Take control of your crypto investments with our comprehensive portfolio management tools.</p>
+                        <div class="portfolio-features-grid">
+                            <div class="portfolio-feature">
+                                <h4>Performance Tracking</h4>
+                                <p>Track ROI, realized and unrealized gains across multiple time periods.</p>
+                            </div>
+                            <div class="portfolio-feature">
+                                <h4>Risk Analysis</h4>
+                                <p>Visualize portfolio concentration, volatility, and correlation metrics.</p>
+                            </div>
+                            <div class="portfolio-feature">
+                                <h4>Tax Reporting</h4>
+                                <p>Generate tax reports for your crypto transactions across multiple exchanges.</p>
+                            </div>
+                            <div class="portfolio-feature">
+                                <h4>Optimization Suggestions</h4>
+                                <p>Receive AI-powered suggestions to optimize your portfolio allocation.</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio-demo" class="btn btn-primary">Try Portfolio Tools</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to elevate your crypto strategy?</h2>
+                <p>Join thousands of traders and investors who use NOVA Protocol to navigate the crypto markets.</p>
+                <div class="cta-buttons">
+                    <a href="/signup" class="btn btn-primary btn-large">Get Started For Free</a>
+                    <a href="/pricing" class="btn btn-outline btn-large">View Pricing Plans</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <div class="footer-logo">
+                        <img src="/images/nova-logo.svg" alt="NOVA Protocol Logo">
+                        <span>NOVA Protocol</span>
+                    </div>
+                    <p>Advanced crypto market intelligence platform powered by AI.</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com/novaprotocol" target="_blank"><img src="/images/icons/twitter.svg" alt="Twitter"></a>
+                        <a href="https://discord.gg/novaprotocol" target="_blank"><img src="/images/icons/discord.svg" alt="Discord"></a>
+                        <a href="https://github.com/novaprotocol" target="_blank"><img src="/images/icons/github.svg" alt="GitHub"></a>
+                        <a href="https://medium.com/novaprotocol" target="_blank"><img src="/images/icons/medium.svg" alt="Medium"></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="/features">Features</a></li>
+                        <li><a href="/pricing">Pricing</a></li>
+                        <li><a href="/api/docs">API</a></li>
+                        <li><a href="/integrations">Integrations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="/docs">Documentation</a></li>
+                        <li><a href="/tutorials">Tutorials</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/research">Research</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/press">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="/terms">Terms of Service</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/cookies">Cookie Policy</a></li>
+                        <li><a href="/disclaimer">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 NOVA Protocol. All rights reserved.</p>
+                <p class="disclaimer-text">Cryptocurrency investments are subject to high market risk. NOVA Protocol is not a financial advisor and the content provided is for informational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/market-data.js"></script>
+</body>
+</html> 
